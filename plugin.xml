@@ -12,6 +12,7 @@
         <config-file target="config.xml" parent="/*">
             <feature name="Echo">
                 <param name="android-package" value="org.apache.cordova.plugin.Echo"/>
+                <param name="onload" value="true" />
             </feature>
         </config-file>
         <source-file src="src/android/Echo.java" />
