@@ -5,7 +5,7 @@
         <description>Cordova Echo Plugin</description>
         <license>Apache 2.0</license>
         <keywords>cordova</keywords>
-        <js-module src="www/echo.js" name="device">
+        <js-module src="www/echo.js" name="Echo">
             <clobbers target="echo" />
         </js-module>
         <platform name="android">
@@ -14,5 +14,6 @@
                 <param name="android-package" value="org.apache.cordova.plugin.Echo"/>
             </feature>
         </config-file>
+        <source-file src="src/android/Echo.java" />
     </platform>
     </plugin>
