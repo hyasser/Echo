@@ -1,6 +1,6 @@
  <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="org.apache.cordova.plugin.Echo" version="0.2.3">
+            id="com.telepin.Echo" version="0.2.3">
         <name>Echo</name>
         <description>Cordova Echo Plugin</description>
         <license>Apache 2.0</license>
@@ -11,7 +11,7 @@
         <platform name="android">
         <config-file target="config.xml" parent="/*">
             <feature name="Echo">
-                <param name="android-package" value="org.apache.cordova.plugin.Echo"/>
+                <param name="android-package" value="com.telepin.Echo"/>
                 <param name="onload" value="true" />
             </feature>
         </config-file>
