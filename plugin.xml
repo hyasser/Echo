@@ -6,7 +6,7 @@
         <license>Apache 2.0</license>
         <keywords>cordova</keywords>
         <js-module src="www/echo.js" name="Echo">
-            <clobbers target="echo" />
+            <clobbers target="Echo" />
         </js-module>
         <platform name="android">
         <config-file target="config.xml" parent="/*">
